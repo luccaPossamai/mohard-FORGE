@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:essentials/root",
+  "criteria": {
+    "craft_essence_altar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:essence_altar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.essentials.craft_essence_altar.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "mohard:essence_altar"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.essentials.craft_essence_altar.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_essence_altar"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

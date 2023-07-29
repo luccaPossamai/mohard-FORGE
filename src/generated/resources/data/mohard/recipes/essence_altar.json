@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:deepslate"
+    },
+    "E": {
+      "tag": "forge:essences/essence"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    " E ",
+    "LDL",
+    "LDL"
+  ],
+  "result": {
+    "item": "mohard:essence_altar"
+  },
+  "show_notification": true
+}

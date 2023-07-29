@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/template_spawn_egg",
+  "textures": {
+    "layer0": "mohard:item/essence_1",
+    "layer1": "mohard:item/essence_2"
+  }
+}

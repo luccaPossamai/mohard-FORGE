@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:essentials/root",
+  "criteria": {
+    "charged_creeper": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:charged_creeper_essence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.essentials.charged_creeper.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "mohard:charged_creeper_essence"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.essentials.charged_creeper.title"
+    }
+  },
+  "requirements": [
+    [
+      "charged_creeper"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

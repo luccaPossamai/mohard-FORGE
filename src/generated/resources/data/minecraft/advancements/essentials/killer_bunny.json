@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:essentials/root",
+  "criteria": {
+    "killer_bunny": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:easter_essence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.essentials.killer_bunny.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "mohard:easter_essence"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.essentials.killer_bunny.title"
+    }
+  },
+  "requirements": [
+    [
+      "killer_bunny"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

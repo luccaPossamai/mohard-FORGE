@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:essentials/root",
+  "criteria": {
+    "blue_axolotl": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mohard:blue_axolotl_essence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.essentials.blue_axolotl.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "mohard:blue_axolotl_essence"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.essentials.blue_axolotl.title"
+    }
+  },
+  "requirements": [
+    [
+      "blue_axolotl"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
